@@ -1,0 +1,435 @@
+@import	
+url('https://fonts.googleapis.com/css?family=Raleway:300i,400,700,900');
+
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.container{
+	width: 95%;
+	margin: 0 auto;
+}
+
+/* Tipografia
+============================*/
+.title{
+	font-size: 2rem;
+	margin-bottom: 1.5em;	
+
+}
+
+
+.title-usuario0{
+	padding-bottom: 1em;
+	padding-top:5em;
+	font-size: 2rem;
+	margin-bottom: 1.5em;	
+	color:#6FC1D0;
+}
+
+@media (max-width: 40rem){
+	.title-usuario0{
+		padding-bottom: 1em;
+		padding-top:9em;
+	}
+}
+
+
+.title span{
+	font-weight: 300;
+	display: block;
+	font-size: 1em;
+	color: #FFF;
+}
+
+.title-caja{
+	color: #2e3d49;
+	font-size: 1.5rem;
+	padding-bottom:.75em;	
+
+}
+
+.title-small-blue{
+	padding: 0 1em;
+	font-weight: 700;
+	font-size: 1.10rem;
+	color: #6FC1D0;
+}
+
+
+.unstyled-list{
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+}
+
+.login-title{
+	font-color:#FFF;
+}
+
+.unstyled-list{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.placeholder-txt{
+	color: #2e3d49;;
+}
+
+@media (max-width: 40rem){
+	.title{
+		font-size: 1.5rem;
+	}
+
+	.title span{
+		font-size: 1.2	rem;
+	}
+}
+
+
+@media (min-width:60rem){
+	.title{
+		font-size: 3rem;
+	}
+}
+
+
+/* Buttons
+============================*/
+
+.button-section{
+	padding-top: .5em;
+	padding-bottom:.5em; 
+}
+.button{
+	display: inline-block;
+	font-size: 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: .5em 1.75em;
+}
+
+.button-medium{
+	display: inline-block;
+	font-size: 0.95rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: .5em 1.75em;
+}
+
+
+.button-small{
+	display: inline-block;
+	font-size: 0.75rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: .3em 1.0em;
+}
+
+.button-accent{
+	color: #FFF;
+	font-weight: 700;
+	border-color:#FFF; 
+}
+
+.button-accent:hover,
+.button-accent:focus{
+	font-weight: 900;
+	background:#FFF;
+	color:#6FC1D0;
+}
+
+.button-orange{
+	color: #FFF;
+	border-color:#FFF; 
+}
+
+.button-orange:hover,
+.button-orange:focus{
+	font-weight: 900;
+	background:#FFF;
+	color:#EA441E;
+}
+
+
+
+.button-red{
+	color: #F00;
+	border-color:#F00; 
+}
+
+.button-red:hover,
+.button-red:focus{
+	font-weight: 900;
+	background:#F00;
+	color:#FFF;
+}
+
+.button-blue{
+	color: #6FC1D0;
+	border-color:#6FC1D0; 
+}
+
+.button-blue:hover,
+.button-blue:focus{
+	font-weight: 900;
+	background:#6FC1D0;
+	color:#FFF;
+}
+
+.button-green{
+	color:#00C853;
+	border-color:#00C853; 
+}
+
+.button-green:hover,
+.button-green:focus{
+	font-weight: 900;
+	background:#00C853;
+	color:#FFF;
+}
+
+.double-btn{
+	padding: 1.0rem 0;
+}
+
+@media (min-width: 60rem){
+	.button{
+		font-size: 1.5rem;
+	}
+}
+
+
+/* header
+============================*/
+
+
+header{
+	position: absolute;
+	margin-top: 1em;
+	left: 0;
+	right: 0;
+	margin: 1em;
+}
+
+
+nav ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin: .5em;
+}
+
+nav	a{
+	font-weight:900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .8rem;
+	padding: .5em;
+	color: #FFF;
+}
+
+.nav-blue{
+	color: #6FC1D0;
+	font-weight: 700;	
+}
+
+nav a:hover,
+nav a:focus{
+	color: #6FC1D0;
+}
+
+@media(min-width: 60rem){
+	.logo{
+		float: left;
+	}
+
+	nav{
+		float: right;
+	}
+
+	nav li{
+		margin: 1em 2em;
+	}
+
+	nav a{
+		font-size: 1rem;
+	}
+}
+
+/* home-lema
+======================*/
+.home-lema{
+	background-image: url("../Img/fondo-home-login.jpg");
+	background-size: cover;
+	background-position:center;
+	padding: 17em 0;
+	padding-bottom: 15em;
+	color: #6FC1D0;
+}
+
+@media(min-width: 60rem){
+	.home-lema{
+		height: 100vh;
+		padding-top: 50vh;
+	}
+}
+
+/* home-contacto
+======================*/
+.home-contacto{
+	background-image: url("../Img/contacto.jpg");
+	background-size: cover;
+	background-position:center;
+	padding: 17em 0;
+	padding-bottom: 15em;
+	color: #6FC1D0;
+}
+
+@media(min-width: 60rem){
+	.home-contacto{
+		height: 100vh;
+		padding-top: 50vh;
+	}
+}
+
+/* home-empleos
+=================================*/
+.home-empleo{
+	padding: 2em 0;
+	background-color: #EA441E;
+	color: #FFF;
+}
+
+.login{
+	padding: 10em
+}
+
+.nav-gris{
+	font-color:#232323;
+}
+
+/*Cajero input Peso
+===================================*/
+.input-cliente{
+	width: 50%;	
+}
+
+.peso-input{
+	padding-top: 15em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+.input-middle{
+	margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 3px 0 hsla(205,5%,48%,.12);
+}
+
+.input-complete{
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 3px 0 hsla(205,5%,48%,.12);
+}
+
+.double-section{
+	width: 100vw;
+	margin-bottom:23em;
+}
+
+.middle-section{
+	padding: 1vh 4vw;
+	align-content: center;
+	width: 50vw;
+	box-shadow: 2px 2px 3px 0 hsla(205,5%,48%,.12);
+}
+
+
+.middle-left{
+	float: left;
+}
+
+.middle-right{
+	float: right;
+	background-color: #FFF;
+}
+
+.three-foods{	
+}
+
+.img-item{
+	padding: .50em;
+	height:30%; 
+	width:30%;
+	border-radius:50%;
+    overflow: hidden;
+}
+
+@media (max-width:60rem){
+	.img-item{	
+		height:35%; 
+		width:35%;
+	}
+}
+
+.img-item-order{
+	padding: .50em;
+	height:30%; 
+	width:30%;
+	border-radius:50%;
+    overflow: hidden;
+}
+
+.metodos-pago{
+	padding: 2em 0;
+}
+
+.login{
+	padding-top: 15em;
+}
+
+label{
+	color:#6FC1D0;
+	font-weight: 900; 
+}
+
+.item-inside{
+	padding-bottom:1em;
+}
+
+.option-section{
+	padding: 2em 3em;
+}
+
+.option-item{
+	padding: 0 1em;
+}
+
+.section-devices{
+	padding: 2em 5em;
+}
